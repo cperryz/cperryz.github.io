@@ -1,0 +1,101 @@
+header{
+color:Darkred;
+text-align:center;
+margin:0%;
+background-color:white;
+background-image:url("record1.JPG");
+font-size:50px;
+}
+
+H1{
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-bottom:65px;
+	padding-top:65px;
+	font-family:Britannic Bold
+}
+
+H2{
+	text-align:left;
+	background-color:white;
+}
+
+ul{
+	background-color:DarkRed;
+	margin-right:100px;
+	font-family:Adobe Fan Heiti Std B;
+	border-style:solid;
+	border-color:white;
+	border-radius:3px;
+	text-decoration:none;
+}
+
+li {
+	
+	text-decoration:none;
+	list-style-type:none;
+	
+}
+
+section{
+color:white;
+text-align:left;
+background-color:black;
+margin:0px;
+height:100%;
+padding-left:100px;
+padding-top:50px;
+font-family:Adobe Fan Heiti Std B;
+}
+
+div {
+	text-align:right;
+	padding-right:100px;
+	position:right;
+	
+}
+
+h2 {
+		
+	margin:0px;
+			
+	font-family:Adobe Fan Heiti Std B;
+				text-align: center;
+				background-color: DimGray;
+				font-size:15px;
+			}
+
+			a {
+				color: white;
+				display: inline-block; 
+				padding: 15px 40px 5px;
+				text-decoration: none;
+			}
+
+			a:hover {
+				background-color: DarkRed;
+}
+
+nav {
+	
+	font-family:Adobe Fan Heiti Std B;
+				text-align: center;
+				background-color: DimGray;
+			}
+
+			a {
+				color: #fff;
+				display: inline-block; 
+				padding: 15px 40px 5px;
+				text-decoration: none;
+			}
+
+			a:hover {
+				background-color: DarkRed;
+			}
+			
+#selected {
+	Background-color: darkred;
+	
+}	
+		

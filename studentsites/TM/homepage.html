@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>information and technology</title>
+</head>
+
+<body>
+<div>
+  <a href="index.html"> <img border="0" alt="Home" src="images2\home.png" width="100" height="100">
+  <a href="computers.html"> <img border="0" alt="Computers" src="images2\computers.png" width="100" height="100">
+  <a href="inputdevices.html"> <img border="0" alt="inputdevices" src="images2\inputdevices.png" width="100" height="100">
+  <a href="outputdevices.html"> <img border="0" alt="outputdevices" src="images2\outputdevices.png" width="100" height="100">
+  <a href="hardware.html"> <img border="0" alt="hardware" src="images2\hardware.png" width="100" height="100">
+  <a href="software.html"> <img border="0" alt="software" src="images2\software.png" width="100" height="100">
+  <a href="contactspage.html"> <img border="0" alt="contacts" src="images2\contacts.png" width="100" height="100">
+  <a href="reviews.html"> <img border="0" alt="reviews" src="images2\reviews.png" width="100" height="100">
+  
+</div> 
+	  
+ <h2>Welcome to my website about Information and Technology</h2>
+<p><img src="imagesAI\logo.png" alt="logo"width="400" height="200"> 
+<h2 class="w3-center">My Slideshow</h2>
+
+<div class="w3-content w3-display-container">
+<p><img class="mySlides" src="images\computerimage.jpg" style="width:50%">
+<p><img class="mySlides" src="images\keyboard.jpg" style="width:50%">
+<p><img class="mySlides" src="images\printer.jpg" style="width:50%">
+<p><img class="mySlides" src="images\ram.jpg" style="width:50%">
+
+ button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button
+ button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button
+</div>
+
+<video width="320" height="240" controls>
+<source src="video\motherboard.mp4" type="video/mp4">
+<source src="movie.ogg" type="video/ogg">
+</video>
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<p>My wesbite will cover everything about Information communication and technology. I will be going through the basics on how to use equipment such as, computers and other types of equipment such as printers keyboards and what they do. i will also be going through software and hardware components so that I can help people when they learn to study IT. </p>
+<img src="images\imac.jpg" alt="imac" width="400" height="200">
+<img src="images\computers.jpg" alt="computers" width="400" height="200">
+<p> Advantages of using computers.</p>
+<p> A computer can also use its stored information more efficiently than any other device. In our earlier example, we mentioned the ability to store millions of books. Once those books are stored on a computer they can be sorted into categories, alphabetized, and can be searched to find exactly may be looking for in less than a minute. Trying to find the same text in a million books would take a human months if not years.</p>
+<p> Are you not the best speller, have poor grammar, not great at math, don't have a great memory, or need help with something else. By using all of the computers abilities, you can improve all of your abilities or if you have a hard time learning you can rely on the computer to assist you.</p>
+<form name="myForm" action="/action_page.php"
+onsubmit="return validateForm()" method="post">
+Name: <input type="text" name="fname">
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+

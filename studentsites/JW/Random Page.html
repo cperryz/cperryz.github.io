@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<link href="Colours And Stuff.css" rel="stylesheet" type="text/css">
+<body>
+<ul>
+	<li><a href="Home.html">Home</a></li>
+	<li><a href="Sign In.html">Sign In</a></li>
+	<li><a href="Start Questions.html">Start Questions</a></li>
+	<li><a href="FAQ.html">FAQ</a></li>
+	<li><a class="active" href="Random Page.html">Random Page</a></li>
+<html>
+<head>
+
+</head>
+<body>
+
+  <div id="map" style="height: 300px; width: 100%;"></div>
+
+  <script>
+    //Website for finding coordinates...
+    //https://www.maps.ie/coordinates.html
+    function initMap() {
+      var uluru = {lat: 25, lng: -71};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 6,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL5NvE_6iHmDqRFvK3EnxojBLfLj_y0KQ&callback=initMap">
+  </script>
+
+</body>
+</html>
+
+</ul>
+
+	<center><h2 class="padding2">The Curiosity Test</h2></center>
+<div style="margin-left:20%;padding:1px 16px;height:1000px;">
+
+<p class="p5"> This page Is filled with all the information i used and all of the links to cool websites and facts.</p>
+
+
+
+<li><a href="Facts.html" class= "class1">Facts</a></li>
+<li><a href="Websites Used.html" class= "class1">Websites Used</li>
+<li><a href="What This Website Is.html" class= "class1">What This Website Is</li>
+
+
+
+
+<div style="margin-bottom: padding:1px 16px;height:4%; background-color: white;">
+ </div></section>
+</div>
+</body>
+</html>

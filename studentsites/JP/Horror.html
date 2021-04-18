@@ -1,0 +1,92 @@
+<html>
+<meta name="viewpoint" content="width=device-width", initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<div class="topnav">
+  <a href="MainPage.html">Main</a>  
+  <a href="FPS.html">FPS</a>
+  <a href="Sidescroller.html">Sidescroller</a>
+  <a href="Horror.html">Horror</a>
+  <a href="MMO.html">MMO</a>
+  <a href="RPG.html">RPG</a>
+  <a href="VR.html">VR</a>
+  <a href="MOBA.html">MOBA</a>
+  <a href="Fighter.html">Fighter</a>
+  <a href="SecretPage.html">Streams</a>
+</div>
+<div class="row">
+  <div class="column">
+    <h2>The First Horror Game</h2>
+    <p>The first recorded horror game was made in 1982, called 3D Monster Maze. It involved dropping the player into a randomly generated maze, that was occupied by a T-Rex. As the player would move around, the T-Rex would begin to follow them, giving the player anxiety, which was shown in the “anxiety level” status bar that would give announcements such as: “REX LIES IN WAIT” or “RUN HE IS BEHIND YOU”. </p>
+    <img src="MonsterMaze.jpg"
+    style="width:350px;height:300px;">
+  
+  </div>
+  <div class="column">
+    <h2>Resident Evil</h2>
+    <p>Resident Evil 7: Biohazard is the franchises return to its survival horror roots, emphasizing exploration.  The storyline is as follows: You are Ethan Winters, a man in search for his wife in a derelict plantation that is occupied by the cannibal Baker family, after he receives a message from her, when she has been presumed dead for 3 years. To keep the experience and to avoid spoilers, that is the most I will explain about the storyline, and I highly recommend you go and play the game yourself. </p>
+    <img src="ResidentEvil.jpg"
+    style="width:300px;height:300px;">
+  
+  </div>
+</div>
+</html>

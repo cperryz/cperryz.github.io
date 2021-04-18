@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    	<link type='text/css' rel='stylesheet' href='style.css'/>
+	<title>C Perry IT</title
+	
+	<script>  
+	function validateform(){  
+	var name=document.myform.name.value;  
+	var password=document.myform.password.value;  
+  
+	if (name==null || name==""){  
+  	alert("Name can't be blank");  
+  	return false;  
+	}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  	}  
+	}  
+	</script> 
+		
+	</head>
+
+	
+	<body>
+
+	 <div id="container">
+	 
+	 <div id="top">
+	 <p> <img src="images/logo1.png" alt="Chris Perry logo"></p>
+	 </div>  
+	 
+	 <div id="leftnav">  
+	 <p><a href="index.html">Home</a></p> 
+	 <p><a href="useful.html">Useful Links</a></p> 
+	 <p><a href="blog.html">Blog</a></p> 
+	 <p><a href="animations.html">Student Animations</a></p> 
+	 <p><a href="imagegallery.html">Image Gallery</a></p>
+	 </div>
+	 
+	 <div id="content"><h2>User</h2>
+
+  
+	<form name="myform" method="post" action="abc.jsp" onsubmit="return validateform()" >  
+	Name: <input type="text" name="name"><br/>  
+	Password: <input type="password" name="password"><br/>  
+	<input type="submit" value="register">  
+	</form>  
+		 
+		 
+	 </div>
+		 
+	 
+	 <div id="footer">
+	 <p> Contact: chris.perry@cmcnet.ac.uk </p>
+		 <p> "If you've got a website I want to be on it" Billy Bragg</p>
+	 <p> <a href="https://www.facebook.com">
+	<img border="0" alt="Facebook" src="images/FBicon.gif" > </a>
+	<a href="https://www.twitter.com">
+		<img border="0" alt="Twitter" src="images/Twittericon.gif" > </a>	</p> 
+ 	</div>
+	 
+	</div> 
+	
+    </body>
+</html>

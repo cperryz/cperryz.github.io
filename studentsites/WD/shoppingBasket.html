@@ -1,0 +1,62 @@
+<html>
+<head>
+
+</head>
+
+
+<body>
+<div id="result">
+<li id="cat"></li>
+<li id="dog"></li>
+<li id="parrot"></li>
+
+</div>
+
+<button id="cat" onClick="updateBasketCat()">Add to Basket</button>
+<button id="dog" onClick="updateBasketDog()">Add to Basket</button>
+<button id="parrot" onClick="updateBasketParrot()">Add to Basket</button>
+
+<button onClick="clearBasket()">Clear Basket</button>
+
+<script>
+function updateBasketCat() {
+	localStorage.setItem("cat", "cat");
+	getBasket()
+
+}
+
+function updateBasketDog() {
+	localStorage.setItem("dog", "dog");
+	getBasket()
+
+}
+
+function updateBasketParrot() {
+	localStorage.setItem("parrot", "parrot");
+	getBasket()
+
+}
+
+function getBasket() {
+	// Retrieve
+	document.getElementById("cat").innerHTML = localStorage.getItem("cat");
+	document.getElementById("dog").innerHTML = localStorage.getItem("dog");
+	document.getElementById("parrot").innerHTML = localStorage.getItem("parrot");
+}
+
+function clearBasket() {
+	// Delete
+	localStorage.removeItem('cat');
+	localStorage.removeItem('dog');
+	localStorage.removeItem('parrot');
+	
+	document.getElementById("cat").innerHTML = localStorage.getItem("cat");
+	document.getElementById("dog").innerHTML = localStorage.getItem("dog");
+	document.getElementById("parrot").innerHTML = localStorage.getItem("parrot");
+}
+</script>
+
+
+</body>
+
+</html>

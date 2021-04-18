@@ -1,0 +1,62 @@
+
+body {
+	 margin: 0 auto;
+	 background-color: black;
+	 }
+
+#navimg {
+		border: 2px solid #ddd;
+    	border-radius: 400px;
+        padding: 0px;
+		display: inline-block;
+		vertical-align: middle; 
+		height:125px; 
+		width:125px; 
+		margin:30px;
+		}
+
+#navimg:hover{
+    		 box-shadow: 0 0 7px 5px rgba(109, 109, 109, 1);
+			 }
+			
+nav {
+	width: 100%;
+	top: 0;
+    position: absolute;
+	height: 410px;
+	margin: 10px;
+    text-align: center;
+	}
+			
+#images{
+	   margin-top: 300px;
+	   font-family: 'Lucida console';
+       font-size: 12px;
+       color: white;
+       text-align: center;
+	   width: 100%;
+       }
+			
+td {
+   padding-top: 20px;
+   width: 150px;
+   color: white;
+   }
+	 
+a:link {
+       color: white; 
+       background-color: transparent; 
+       text-decoration: none;
+       }
+
+a:visited {
+          color: gray;
+          background-color: transparent;
+          text-decoration: none;
+          }
+
+input {
+	  z-index: 11;  
+	  }
+
+    

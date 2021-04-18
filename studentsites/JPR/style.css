@@ -1,0 +1,35 @@
+body {
+	margin: 0 auto;
+	min-width: 1000px;
+}
+
+nav {
+	         background-color: black;
+	         height: 200px;
+	         text-align: center;
+	         position: fixed;
+	         top: 110px;
+	         width: 100%;
+		     display: inline-center;
+			 min-width: 1000px;
+			 
+}
+header {
+	         background-color: white;
+	         height: 150px;
+			 position: fixed;
+	         top: 0;
+	         width: 100%;
+		     font-size: 30px;
+			 font-family: Chango;
+			 min-width: 1000px;
+			 
+}
+
+section{
+	         font-family: Chango;
+			 margin-top: 310px;
+			 top: 300px;
+			 background-color: black;
+			 color: white;
+}

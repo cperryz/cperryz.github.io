@@ -1,0 +1,86 @@
+body {
+    background-color: Black;
+}
+.topnav {
+  list-style-type: none;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  position: center;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  letter-spacing: 3px;
+}
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  padding: 5% 0%;
+  text-decoration: none;
+  font-family: Verdana;
+  margin-left: 4%; 
+  margin-right: 4%;
+}
+
+.topnav a:hover {
+  background-color: #111;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.slideshow-container {
+  position: center;
+  margin: 6px;
+}
+
+.mySlides {
+    display: block;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.DealsShape {
+  position: relative;
+  font-family: Verdana;
+  margin: auto;
+  background-color: #111;
+  color: #FFFFFF;
+  font-size: 42px;
+  overflow: auto;
+}
+.Newscolour {
+    text-align: center;
+    color: #FFFFFF;
+	margin-top: 50px;
+	font-family: Verdana;
+	background-color: #111;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;.
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="Intro.html">Intro</a></li>
+  <li><a href="Lol E-sports.html">Lol E-sports</a></li>
+  <li><a href="Streamers1.html">Tyler1</a></li>
+  <li><a href="Streamers2.html">Gross Gore</a></li>
+  <li><a href="Streamers3.html">BoxBox</a></li>
+  <li><a href="Streamers4.html">Sneaky</a></li>
+  <li><a href="Streamers5.html">Imaqtpie</a></li>
+  <li style="float:right"><a class="active" href="about.html">About</a></li>
+</ul>
+</body>
+</html>
+<html>
+<head>
+<title>About page</title>
+</head>
+<body>
+
+<h1>About Page</h1>
+<p>I am a level 3 BTEC IT cambridge national student who is currently studying at the cheadle college . In one of my assignments, I was tasked
+to create a website and therefore created a website on streamers of my favourite game, league of legends. I am currently studying on a boat in 
+the ocean.</p>
+
+</head>
+<body>
+
+  <div id="map" style="height: 300px; width: 300px;"></div>
+
+  <script>
+    //Website for finding coordinates...
+    //https://www.maps.ie/coordinates.html
+    function initMap() {
+      var uluru = {lat: -28.138551, lng: -122.825781};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 6,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL5NvE_6iHmDqRFvK3EnxojBLfLj_y0KQ&callback=initMap">
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+

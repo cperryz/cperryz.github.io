@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>HTML Tutorial</title>
+</head>
+<body>
+<div>
+  <p><font color="White" text!</font></p>
+<a href="index.html"><span>Home</span></a>
+<a href="mclarenp1.html"><span>McLaren P1</span></a>
+<a href="laferrari.html"><span>Laferrari</span></a>
+<a href="lamborghiniSVR.html"><span>Lamborghini SVR</span></a>
+<a href="bugatti.html"><span>Bugatti Chiron</span></a>
+<a href="contact.html"><span>Contact</span></a>
+</div>
+
+<h2 class="w3-center">Manual Slideshow</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="images/laferrariw.jpg" style="width:100%">
+  <img class="mySlides" src="images/mclarenp1front.jpg" style="width:100%">
+  <img class="mySlides" src="images/chiron-bugatti back.jpg" style="width:100%">
+  <img class="mySlides" src="images/lamborghinifront.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+<h1 align="center">Super Car Hire LTD</h1>
+<p>Welcome to my page.</p>
+<p>We're one of the most popular company which gives you the best car your after and in a reasonable price.</p>
+<p>We were launched in January 2012 and based in Manchester.</p>
+<p>Contact</p>
+<p>Phone: 0161 786 7867</p>
+<p>Email: supercarhireltd@outlook.com</p>
+<p>Address: Super Car Hire LTD</p>
+<p>Manchester Road</p>
+<p>Manchester Central</p>
+<p>M20 5HA</p>
+
+</body>
+</html> 
+<html>
+<head>
+<style>
+body html {
+
+    background-image: url("images/mclarenp1front.jpg");
+	
+}
+</style>
+</head>
+<body>
+
+<img src ="images\mclarenp1front.jpg" alt="mclaren p1 front" width="300" height="150">

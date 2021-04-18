@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Teams</title>
+</head>
+ <link rel="stylesheet" href="styles.css">
+<body>
+
+<h1>Top 5 teams</h1>
+<p>Here are the top 5 teams in the world at the moment.</p>
+<img src="https://static.hltv.org/images/team/logo/6667" alt="Logo for Faze clan">
+<br>
+<p> FaZe Clan are currently ranked #1 in the world due to their amazing major event reaching the final at the Eleague major in boston. </p>
+<a href="https://www.hltv.org/">HLTV.</a> 
+<br>
+<a href="https://www.thescoreesports.com/csgo/news">Score - Esports.</a>
+<br>
+<a href="https://www.esportsearnings.com/games/162-counter-strike">Esports earnings.</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="website.html">index</a> 
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    background-color: #cccccc;
+} 
+
+h1 {
+     color: #DBAA4C;
+	 font-family: nevas;
+	 font-size: 30px;
+}
+
+h2 {
+	color: #ECEDE4;
+	font-family: Verdana;
+	font-size: 24px;
+}
+
+ p {
+     font-family: spiegel;
+     font-size: 18px;
+} 
+
+ p {
+	 color: #ECEDE4;
+ }
+ 
+a:link {
+    color: hotpink;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: hotpink;
+	text-decoration: underline;
+}
+ 
+a:hover {
+    color: hotpink;
+	text-decoration: underline;
+}
+
+a:active {
+     color: blue;
+	 text-decoration: underline;
+} 
+
+
+
+

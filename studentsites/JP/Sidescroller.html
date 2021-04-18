@@ -1,0 +1,90 @@
+<html>
+<meta name="viewpoint" content="width=device-width", initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+</head>
+
+<div class="topnav">
+  <a href="MainPage.html">Main</a>  
+  <a href="FPS.html">FPS</a>
+  <a href="Sidescroller.html">Sidescroller</a>
+  <a href="Horror.html">Horror</a>
+  <a href="MMO.html">MMO</a>
+  <a href="RPG.html">RPG</a>
+  <a href="VR.html">VR</a>
+  <a href="MOBA.html">MOBA</a>
+  <a href="Fighter.html">Fighter</a>
+  <a href="SecretPage.html">Streams</a>
+</div>
+<div class="row">
+  <div class="column">
+    <h2>The First Sidescroller Game</h2>
+    <p>The first game to use the sidescrolling feature was called Bomber made by Sega, however there is not much information on the game. The next popular game is called Defender and is an arcade game that was released in 1981. It was a horizontal scrolling shoot 'em up, where the game is set on an unnamed planet where the player must defeat waves of invading aliens while protecting astronauts.</p>
+    <img src="Defender.jpg"
+    style="width:375px;height:300px;">
+	</div>
+  <div class="column">
+    <h2>Terraria</h2>
+    <p>Terraria is one of the more popular sidescrollers, as the gameplay involves exploration, crafting, building, and combat with a variety of creatures in a procedurally generated 2D world. The player can encounter many different enemies in Terraria, such as simple slimes, zombies, demon eyes, and various biome-specific enemies. The player may also battle boss monsters during the game with a number of different combat mechanics that can drop rare items and large amounts of in-game currency.</p>
+    <img src="Terraria.jpg"
+    style="width:475px;height:300px;">  
+  </div>
+</div>
+</html>

@@ -1,0 +1,510 @@
+﻿<!DOCTYPE html>
+<html>
+<link href="Colours And Stuff.css" rel="stylesheet" type="text/css">
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-15900753-14', 'psychologia.co');
+ ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script><script async="">
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '381133212344086');
+  fbq('track', 'PageView');
+</script>
+<script>
+function creativityTest(){
+var i;
+var risk = 0;
+var curiosity = 0;
+var complexity = 0;
+var imagination = 0;
+var total = 0;
+
+var riskA = [document.getElementById("A1"), document.getElementById("A21"), document.getElementById("A25"), document.getElementById("A35"), document.getElementById("A36"), document.getElementById("A43"), document.getElementById("A44")];
+for (i = 0; i < riskA.length; i++) {
+    if (riskA[i].checked) {
+	    risk += 2;
+	}
+}
+
+var riskB = [document.getElementById("B1"), document.getElementById("B21"), document.getElementById("B25"), document.getElementById("B35"), document.getElementById("B36"), document.getElementById("B43"), document.getElementById("B44"), document.getElementById("B5"), document.getElementById("B8"), document.getElementById("B22"), document.getElementById("B29"), document.getElementById("B32"), document.getElementById("B34")];
+for (i = 0; i < riskB.length; i++) {
+    if (riskB[i].checked) {
+	    risk += 1;
+	}
+}
+
+var riskC = [document.getElementById("C5"), document.getElementById("C8"), document.getElementById("C22"), document.getElementById("C29"), document.getElementById("C32"), document.getElementById("C34")];
+for (i = 0; i < riskC.length; i++) {
+    if (riskC[i].checked) {
+	    risk += 2;
+	}
+}
+
+var riskD = [document.getElementById("D1"), document.getElementById("D21"), document.getElementById("D25"), document.getElementById("D35"), document.getElementById("D36"), document.getElementById("D43"), document.getElementById("D44"), document.getElementById("D5"), document.getElementById("D8"), document.getElementById("D22"), document.getElementById("D29"), document.getElementById("D32"), document.getElementById("D34")];
+for (i = 0; i < riskD.length; i++) {
+    if (riskD[i].checked) {
+	    risk -= 1;
+	}
+}
+
+
+var curiosityA = [document.getElementById("A2"), document.getElementById("A3"), document.getElementById("A11"), document.getElementById("A12"), document.getElementById("A19"), document.getElementById("A27"), document.getElementById("A33"), document.getElementById("A37"), document.getElementById("A38"), document.getElementById("A47"), document.getElementById("A49"), document.getElementById("B28")];
+for (i = 0; i < curiosityA.length; i++) {
+    if (curiosityA[i].checked) {
+	    curiosity += 2;
+	}
+}
+
+var curiosityB = [document.getElementById("B2"), document.getElementById("B3"), document.getElementById("B11"), document.getElementById("B12"), document.getElementById("B19"), document.getElementById("B27"), document.getElementById("B33"), document.getElementById("B37"), document.getElementById("B38"), document.getElementById("B47"), document.getElementById("B49"), document.getElementById("C28")];
+for (i = 0; i < curiosityB.length; i++) {
+    if (curiosityB[i].checked) {
+	    curiosity += 1;
+	}
+}
+
+var curiosityD = [document.getElementById("D2"), document.getElementById("D3"), document.getElementById("D11"), document.getElementById("D12"), document.getElementById("D19"), document.getElementById("D27"), document.getElementById("D33"), document.getElementById("D37"), document.getElementById("D38"), document.getElementById("D47"), document.getElementById("D49"), document.getElementById("D28")];
+for (i = 0; i < curiosityD.length; i++) {
+    if (curiosityD[i].checked) {
+	    curiosity -= 1;
+	}
+}
+
+var complexityA = [document.getElementById("A7"), document.getElementById("A15"), document.getElementById("A18"), document.getElementById("A26"), document.getElementById("A42"), document.getElementById("A50")];
+for (i = 0; i < complexityA.length; i++) {
+    if (complexityA[i].checked) {
+	    complexity += 2;
+	}
+}
+
+var complexityB = [document.getElementById("B7"), document.getElementById("B15"), document.getElementById("B18"), document.getElementById("B26"), document.getElementById("B42"), document.getElementById("B50"), document.getElementById("B4"), document.getElementById("B9"), document.getElementById("B10"), document.getElementById("B17"), document.getElementById("B24"), document.getElementById("B41"), document.getElementById("B48")];
+for (i = 0; i < complexityB.length; i++) {
+    if (complexityB[i].checked) {
+	    complexity += 1;
+	}
+}
+
+var complexityC = [document.getElementById("C4"), document.getElementById("C9"), document.getElementById("C10"), document.getElementById("C17"), document.getElementById("C24"), document.getElementById("C41"), document.getElementById("C48")];
+for (i = 0; i < complexityC.length; i++) {
+    if (complexityC[i].checked) {
+	    complexity += 2;
+	}
+}
+
+var complexityD = [document.getElementById("D7"), document.getElementById("D15"), document.getElementById("D18"), document.getElementById("D26"), document.getElementById("D42"), document.getElementById("D50"), document.getElementById("D4"), document.getElementById("D9"), document.getElementById("D10"), document.getElementById("D17"), document.getElementById("D24"), document.getElementById("D41"), document.getElementById("D48")];
+for (i = 0; i < complexityD.length; i++) {
+    if (complexityD[i].checked) {
+	    complexity -= 1;
+	}
+}
+
+var imaginationA = [document.getElementById("A13"), document.getElementById("A16"), document.getElementById("A23"), document.getElementById("A30"), document.getElementById("A31"), document.getElementById("A40"), document.getElementById("A45"), document.getElementById("A46")];
+for (i = 0; i < imaginationA.length; i++) {
+    if (imaginationA[i].checked) {
+	    imagination += 2;
+	}
+}
+
+var imaginationB = [document.getElementById("B13"), document.getElementById("B16"), document.getElementById("B23"), document.getElementById("B30"), document.getElementById("B31"), document.getElementById("B40"), document.getElementById("B45"), document.getElementById("B46"), document.getElementById("B14"), document.getElementById("B20"), document.getElementById("B39")];
+for (i = 0; i < imaginationB.length; i++) {
+    if (imaginationB[i].checked) {
+	    imagination += 1;
+	}
+}
+
+var imaginationC =[document.getElementById("C14"), document.getElementById("C20"), document.getElementById("C39")];
+for (i = 0; i < imaginationC.length; i++) {
+    if (imaginationC[i].checked) {
+	    imagination += 2;
+	}
+}
+
+var imaginationD = [document.getElementById("D13"), document.getElementById("D16"), document.getElementById("D23"), document.getElementById("D30"), document.getElementById("D31"), document.getElementById("D40"), document.getElementById("D45"), document.getElementById("D46"), document.getElementById("D14"), document.getElementById("D20"), document.getElementById("D39")];
+for (i = 0; i < imaginationD.length; i++) {
+    if (imaginationD[i].checked) {
+	    imagination -= 1;
+	}
+}
+
+var total = risk + curiosity + complexity + imagination;
+
+document.getElementById("result").innerHTML = "Risk: " + risk + "/26<br/>Curiosity: " + curiosity + "/24<br/>Complexity: " + complexity + "/26<br/>Imagination: " + imagination + "/24<br/><br/>Overall creativity score: " + total + "/100";
+
+}
+</script>
+
+<body>
+<body onload="alertMessage()">
+
+<script>
+function alertMessage() {
+    alert("Highlight the boxes which apply and then after its done click get results");
+}
+</script>
+
+
+
+
+<ul>
+	<li><a href="Home.html">Home</a></li>
+	<li><a href="Sign In.html">Sign In</a></li>
+	<li><a class="active" href="Start Questions.html">Start Questions</a></li>
+	<li><a href="FAQ.html">FAQ</a></li>
+	<li><a href="Random Page.html">Random Page</a></li>
+<html>
+<head>
+
+</head>
+<body>
+
+  <div id="map" style="height: 300px; width: 100%;"></div>
+
+  <script>
+    //Website for finding coordinates...
+    //https://www.maps.ie/coordinates.html
+    function initMap() {
+      var uluru = {lat: 25, lng: -71};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 6,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL5NvE_6iHmDqRFvK3EnxojBLfLj_y0KQ&callback=initMap">
+  </script>
+
+</body>
+</html>
+
+</ul>
+	<center><h2 class="padding2">The Curiosity Test</h2></center>
+<div style="margin-left:20%;padding:1px 16px;height:1000px;">
+	
+	
+	
+	<center><p class="padding">The test below will give you a score for each question a set of them will be for your curiosity but also to make this more fun i added extra questions to find your personallity in general and then to top it all off
+	at the you will get your overall score for the test.</p></center>
+	
+<p><strong>I receive satisfaction from simply imaging having things and experiences I want to have.</strong><br>
+<input type="radio" name="group46" id="A46"> mostly true<br>
+<input type="radio" name="group46" id="B46"> partially true<br>
+<input type="radio" name="group46" id="C46"> false<br>
+<input type="radio" name="group46" id="D46"> I don’t know</p>
+<p><strong>I am never bored.</strong><br>
+<input type="radio" name="group50" id="A50"> mostly true<br>
+<input type="radio" name="group50" id="B50"> partially true<br>
+<input type="radio" name="group50" id="C50"> false<br>
+<input type="radio" name="group50" id="D50"> I don’t know</p>
+<p><strong>If I am not sure of the right answer, I will try to guess it.</strong><br>
+<input type="radio" name="group1" id="A1"> mostly true<br>
+<input type="radio" name="group1" id="B1"> partially true<br>
+<input type="radio" name="group1" id="C1"> false<br>
+<input type="radio" name="group1" id="D1"> I don’t know</p>
+<p><strong>I test new ideas to see how everything will pan out.</strong><br>
+<input type="radio" name="group43" id="A43"> mostly true<br>
+<input type="radio" name="group43" id="B43"> partially true<br>
+<input type="radio" name="group43" id="C43"> false<br>
+<input type="radio" name="group43" id="D43"> I don’t know</p>
+<p><strong>I examine objects carefully and repeatedly to find the details I hadn’t noticed earlier.</strong><br>
+<input type="radio" name="group2" id="A2"> mostly true<br>
+<input type="radio" name="group2" id="B2"> partially true<br>
+<input type="radio" name="group2" id="C2"> false<br>
+<input type="radio" name="group2" id="D2"> I don’t know</p>
+<p><strong>If I don’t know something, I simply ask someone who does.</strong><br>
+<input type="radio" name="group3" id="A3"> mostly true<br>
+<input type="radio" name="group3" id="B3"> partially true<br>
+<input type="radio" name="group3" id="C3"> false<br>
+<input type="radio" name="group3" id="D3"> I don’t know</p>
+<p><strong>I think that most people tend to complicate things more than they need to be.</strong><br>
+<input type="radio" name="group48" id="A48"> mostly true<br>
+<input type="radio" name="group48" id="B48"> partially true<br>
+<input type="radio" name="group48" id="C48"> false<br>
+<input type="radio" name="group48" id="D48"> I don’t know</p>
+<p><strong>I enjoy planning things in advance.</strong><br>
+<input type="radio" name="group4" id="A4"> mostly true<br>
+<input type="radio" name="group4" id="B4"> partially true<br>
+<input type="radio" name="group4" id="C4"> false<br>
+<input type="radio" name="group4" id="D4"> I don’t know</p>
+<p><strong>I am into unusual, exotic things.</strong><br>
+<input type="radio" name="group18" id="A18"> mostly true<br>
+<input type="radio" name="group18" id="B18"> partially true<br>
+<input type="radio" name="group18" id="C18"> false<br>
+<input type="radio" name="group18" id="D18"> I don’t know</p>
+<p><strong>I won’t play a game unless I am confident in my ability to win.</strong><br>
+<input type="radio" name="group5" id="A5"> mostly true<br>
+<input type="radio" name="group5" id="B5"> partially true<br>
+<input type="radio" name="group5" id="C5"> false<br>
+<input type="radio" name="group5" id="D5"> I don’t know</p>
+<p><strong>I like to invent new things even if unpractical.</strong><br>
+<input type="radio" name="group40" id="A40"> mostly true<br>
+<input type="radio" name="group40" id="B40"> partially true<br>
+<input type="radio" name="group40" id="C40"> false<br>
+<input type="radio" name="group40" id="D40"> I don’t know</p>
+<p><strong>I imagine different scenarios of my future and then place myself in each situation.</strong><br>
+<input type="radio" name="group6" id="A6"> mostly true<br>
+<input type="radio" name="group6" id="B6"> partially true<br>
+<input type="radio" name="group6" id="C6"> false<br>
+<input type="radio" name="group6" id="D6"> I don’t know</p>
+<p><strong>I persist until I get things right.</strong><br>
+<input type="radio" name="group7" id="A7"> mostly true<br>
+<input type="radio" name="group7" id="B7"> partially true<br>
+<input type="radio" name="group7" id="C7"> false<br>
+<input type="radio" name="group7" id="D7"> I don’t know</p>
+<p><strong>Generally,I get anxious if I make a mistake.</strong><br>
+<input type="radio" name="group22" id="A22"> mostly true<br>
+<input type="radio" name="group22" id="B22"> partially true<br>
+<input type="radio" name="group22" id="C22"> false<br>
+<input type="radio" name="group22" id="D22"> I don’t know</p>
+<p><strong>I never play unfamiliar games.</strong><br>
+<input type="radio" name="group8" id="A8"> mostly true<br>
+<input type="radio" name="group8" id="B8"> partially true<br>
+<input type="radio" name="group8" id="C8"> false<br>
+<input type="radio" name="group8" id="D8"> I don’t know</p>
+<p><strong>I stick to tried and true methods.</strong><br>
+<input type="radio" name="group9" id="A9"> mostly true<br>
+<input type="radio" name="group9" id="B9"> partially true<br>
+<input type="radio" name="group9" id="C9"> false<br>
+<input type="radio" name="group9" id="D9"> I don’t know</p>
+<p><strong>I hate it when things are all out of place.</strong><br>
+<input type="radio" name="group41" id="A41"> mostly true<br>
+<input type="radio" name="group41" id="B41"> partially true<br>
+<input type="radio" name="group41" id="C41"> false<br>
+<input type="radio" name="group41" id="D41"> I don’t know</p>
+<p><strong>Usually I don’t go out of my way just to confirm things.</strong><br>
+<input type="radio" name="group10" id="A10"> mostly true<br>
+<input type="radio" name="group10" id="B10"> partially true<br>
+<input type="radio" name="group10" id="C10"> false<br>
+<input type="radio" name="group10" id="D10"> I don’t know</p>
+<p><strong>I am always curious about new books and upcoming movies.</strong><br>
+<input type="radio" name="group47" id="A47"> mostly true<br>
+<input type="radio" name="group47" id="B47"> partially true<br>
+<input type="radio" name="group47" id="C47"> false<br>
+<input type="radio" name="group47" id="D47"> I don’t know</p>
+<p><strong>I like to try new things.</strong><br>
+<input type="radio" name="group11" id="A11"> mostly true<br>
+<input type="radio" name="group11" id="B11"> partially true<br>
+<input type="radio" name="group11" id="C11"> false<br>
+<input type="radio" name="group11" id="D11"> I don’t know</p>
+<p><strong>I want to be someone special and/or to invent something new.</strong><br>
+<input type="radio" name="group23" id="A23"> mostly true<br>
+<input type="radio" name="group23" id="B23"> partially true<br>
+<input type="radio" name="group23" id="C23"> false<br>
+<input type="radio" name="group23" id="D23"> I don’t know</p>
+
+
+<p><strong>I like to meet new people.</strong><br>
+<input type="radio" name="group12" id="A12"> mostly true<br>
+<input type="radio" name="group12" id="B12"> partially true<br>
+<input type="radio" name="group12" id="C12"> false<br>
+<input type="radio" name="group12" id="D12"> I don’t know</p>
+<p><strong>I like to disassemble things then put them back together to learn how they work.</strong><br>
+<input type="radio" name="group38" id="A38"> mostly true<br>
+<input type="radio" name="group38" id="B38"> partially true<br>
+<input type="radio" name="group38" id="C38"> false<br>
+<input type="radio" name="group38" id="D38"> I don’t know</p>
+<p><strong>I have a rich fantasy life.</strong><br>
+<input type="radio" name="group13" id="A13"> mostly true<br>
+<input type="radio" name="group13" id="B13"> partially true<br>
+<input type="radio" name="group13" id="C13"> false<br>
+<input type="radio" name="group13" id="D13"> I don’t know</p>
+<p><strong>I don’t waste time dreaming of things I don’t expect to happen (e.g., becoming a famous person).</strong><br>
+<input type="radio" name="group14" id="A14"> mostly true<br>
+<input type="radio" name="group14" id="B14"> partially true<br>
+<input type="radio" name="group14" id="C14"> false<br>
+<input type="radio" name="group14" id="D14"> I don’t know</p>
+<p><strong>Sometimes I get so excited about a new idea that I forget the reality.</strong><br>
+<input type="radio" name="group15" id="A15"> mostly true<br>
+<input type="radio" name="group15" id="B15"> partially true<br>
+<input type="radio" name="group15" id="C15"> false<br>
+<input type="radio" name="group15" id="D15"> I don’t know</p>
+<p><strong>I want to be an adventurer, traveller, sailor or astronaut.</strong><br>
+<input type="radio" name="group16" id="A16"> mostly true<br>
+<input type="radio" name="group16" id="B16"> partially true<br>
+<input type="radio" name="group16" id="C16"> false<br>
+<input type="radio" name="group16" id="D16"> I don’t know</p>
+<p><strong>I get nervous if I can’t predict an outcome.</strong><br>
+<input type="radio" name="group17" id="A17"> mostly true<br>
+<input type="radio" name="group17" id="B17"> partially true<br>
+<input type="radio" name="group17" id="C17"> false<br>
+<input type="radio" name="group17" id="D17"> I don’t know</p>
+<p><strong>I try to guess other people’s thoughts.</strong><br>
+<input type="radio" name="group19" id="A19"> mostly true<br>
+<input type="radio" name="group19" id="B19"> partially true<br>
+<input type="radio" name="group19" id="C19"> false<br>
+<input type="radio" name="group19" id="D19"> I don’t know</p>
+<p><strong>History is one of my favorite subjects.</strong><br>
+<input type="radio" name="group20" id="A20"> mostly true<br>
+<input type="radio" name="group20" id="B20"> partially true<br>
+<input type="radio" name="group20" id="C20"> false<br>
+<input type="radio" name="group20" id="D20"> I don’t know</p>
+<p><strong>I like to discuss my ideas with friends.</strong><br>
+<input type="radio" name="group21" id="A21"> mostly true<br>
+<input type="radio" name="group21" id="B21"> partially true<br>
+<input type="radio" name="group21" id="C21"> false<br>
+<input type="radio" name="group21" id="D21"> I don’t know</p>
+<p><strong>I am more comfortable around conventional people.</strong><br>
+<input type="radio" name="group24" id="A24"> mostly true<br>
+<input type="radio" name="group24" id="B24"> partially true<br>
+<input type="radio" name="group24" id="C24"> false<br>
+<input type="radio" name="group24" id="D24"> I don’t know</p>
+<p><strong>I often break rules.</strong><br>
+<input type="radio" name="group25" id="A25"> mostly true<br>
+<input type="radio" name="group25" id="B25"> partially true<br>
+<input type="radio" name="group25" id="C25"> false<br>
+<input type="radio" name="group25" id="D25"> I don’t know</p>
+<p><strong>I enjoy problem solving.</strong><br>
+<input type="radio" name="group26" id="A26"> mostly true<br>
+<input type="radio" name="group26" id="B26"> partially true<br>
+<input type="radio" name="group26" id="C26"> false<br>
+<input type="radio" name="group26" id="D26"> I don’t know</p>
+<p><strong>I like to experiment with new things.</strong><br>
+<input type="radio" name="group27" id="A27"> mostly true<br>
+<input type="radio" name="group27" id="B27"> partially true<br>
+<input type="radio" name="group27" id="C27"> false<br>
+<input type="radio" name="group27" id="D27"> I don’t know</p>
+<p><strong>I tend to overthink.</strong><br>
+<input type="radio" name="group28" id="A28"> mostly true<br>
+<input type="radio" name="group28" id="B28"> partially true<br>
+<input type="radio" name="group28" id="C28"> false<br>
+<input type="radio" name="group28" id="D28"> I don’t know</p>
+<p><strong>I am comfortable with public speaking.</strong><br>
+<input type="radio" name="group29" id="A29"> mostly true<br>
+<input type="radio" name="group29" id="B29"> partially true<br>
+<input type="radio" name="group29" id="C29"> false<br>
+<input type="radio" name="group29" id="D29"> I don’t know</p>
+<p><strong>While watching a movie or reading a book, I imagine myself as one of the heroes.</strong><br>
+<input type="radio" name="group30" id="A30"> mostly true<br>
+<input type="radio" name="group30" id="B30"> partially true<br>
+<input type="radio" name="group30" id="C30"> false<br>
+<input type="radio" name="group30" id="D30"> I don’t know</p>
+<p><strong>I like to imagine how people lived hundreds of years ago.</strong><br>
+<input type="radio" name="group31" id="A31"> mostly true<br>
+<input type="radio" name="group31" id="B31"> partially true<br>
+<input type="radio" name="group31" id="C31"> false<br>
+<input type="radio" name="group31" id="D31"> I don’t know</p>
+<p><strong>I don’t like people who lack confidence.</strong><br>
+<input type="radio" name="group32" id="A32"> mostly true<br>
+<input type="radio" name="group32" id="B32"> partially true<br>
+<input type="radio" name="group32" id="C32"> false<br>
+<input type="radio" name="group32" id="D32"> I don’t know</p>
+<p><strong>I am really curious.</strong><br>
+<input type="radio" name="group33" id="A33"> mostly true<br>
+<input type="radio" name="group33" id="B33"> partially true<br>
+<input type="radio" name="group33" id="C33"> false<br>
+<input type="radio" name="group33" id="D33"> I don’t know</p>
+<p><strong>Typically, I avoid change. </strong><br>
+<input type="radio" name="group34" id="A34"> mostly true<br>
+<input type="radio" name="group34" id="B34"> partially true<br>
+<input type="radio" name="group34" id="C34"> false<br>
+<input type="radio" name="group34" id="D34"> I don’t know</p>
+<p><strong>I trust my intuition.</strong><br>
+<input type="radio" name="group35" id="A35"> mostly true<br>
+<input type="radio" name="group35" id="B35"> partially true<br>
+<input type="radio" name="group35" id="C35"> false<br>
+<input type="radio" name="group35" id="D35"> I don’t know</p>
+<p><strong>I like to guess things, then check if I was right.</strong><br>
+<input type="radio" name="group36" id="A36"> mostly true<br>
+<input type="radio" name="group36" id="B36"> partially true<br>
+<input type="radio" name="group36" id="C36"> false<br>
+<input type="radio" name="group36" id="D36"> I don’t know</p>
+<p><strong>I like to play strategic games.</strong><br>
+<input type="radio" name="group37" id="A37"> mostly true<br>
+<input type="radio" name="group37" id="B37"> partially true<br>
+<input type="radio" name="group37" id="C37"> false<br>
+<input type="radio" name="group37" id="D37"> I don’t know</p>
+<p><strong>I can never think of something original.</strong><br>
+<input type="radio" name="group39" id="A39"> mostly true<br>
+<input type="radio" name="group39" id="B39"> partially true<br>
+<input type="radio" name="group39" id="C39"> false<br>
+<input type="radio" name="group39" id="D39"> I don’t know</p>
+<p><strong>I mentally prepare myself for various situations that could happen in the future.</strong><br>
+<input type="radio" name="group42" id="A42"> mostly true<br>
+<input type="radio" name="group42" id="B42"> partially true<br>
+<input type="radio" name="group42" id="C42"> false<br>
+<input type="radio" name="group42" id="D42"> I don’t know</p>
+<p><strong>I play games for fun, not for the sake of winning.</strong><br>
+<input type="radio" name="group44" id="A44"> mostly true<br>
+<input type="radio" name="group44" id="B44"> partially true<br>
+<input type="radio" name="group44" id="C44"> false<br>
+<input type="radio" name="group44" id="D44"> I don’t know</p>
+<p><strong>I am an original thinker.</strong><br>
+<input type="radio" name="group45" id="A45"> mostly true<br>
+<input type="radio" name="group45" id="B45"> partially true<br>
+<input type="radio" name="group45" id="C45"> false<br>
+<input type="radio" name="group45" id="D45"> I don’t know</p>
+<p><strong>I try to look at things from a different perspective than most people.</strong><br>
+<input type="radio" name="group49" id="A49"> mostly true<br>
+<input type="radio" name="group49" id="B49"> partially true<br>
+<input type="radio" name="group49" id="C49"> false<br>
+<input type="radio" name="group49" id="D49"> I don’t know</p>
+<p><button onclick="creativityTest()">GET RESULTS</button></p>
+<div class="yellow-box">
+<p id="result">Your result will appear here.</p>
+</div>
+
+
+
+<p> Below are also the 16 different types of personalities, in-case you got... curious</p>
+
+<p><strong>16 PERSONALITY TYPES</strong></p>
+<table class="chart">
+<thead>
+<tr>
+<th>I</th>
+<th>II</th>
+<th>III</th>
+<th>IV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://psychologia.co/estp/">ESTP</a></td>
+<td><a href="http://psychologia.co/estj/">ESTJ</a></td>
+<td><a href="http://psychologia.co/enfj/">ENFJ</a></td>
+<td><a href="http://psychologia.co/entj/">ENTJ</a></td>
+</tr>
+<tr>
+<td><a href="http://psychologia.co/istp/">ISTP</a></td>
+<td><a href="http://psychologia.co/istj/">ISTJ</a></td>
+<td><a href="http://psychologia.co/infj/">INFJ</a></td>
+<td><a href="http://psychologia.co/intj/">INTJ</a></td>
+</tr>
+<tr>
+<td><a href="http://psychologia.co/esfp/">ESFP</a></td>
+<td><a href="http://psychologia.co/esfj/">ESFJ</a></td>
+<td><a href="http://psychologia.co/enfp/">ENFP</a></td>
+<td><a href="http://psychologia.co/entp/">ENTP</a></td>
+</tr>
+<tr>
+<td><a href="http://psychologia.co/isfp/">ISFP</a></td>
+<td><a href="http://psychologia.co/isfj/">ISFJ</a></td>
+<td><a href="http://psychologia.co/infp/">INFP</a></td>
+<td><a href="http://psychologia.co/intp/">INTP</a></td>
+</tr>
+</tbody>
+</table>
+
+<div style="margin-bottom: padding:1px 16px;height:4%; background-color: white;">
+ </div></section>
+</body>
+</html>

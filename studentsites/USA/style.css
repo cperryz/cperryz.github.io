@@ -1,0 +1,46 @@
+body {
+	
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin:0 auto;
+	text-align: center;
+	}
+	
+
+nav {
+      background-color: black;
+	  height: 40px;
+	  text-align: center;
+	  position: fixed;
+	  
+	  width: 40%;
+	  }
+	  
+	  
+  
+	nav {
+				text-align: center;
+				background-color: #303030;
+				bottom: 50;
+				position: fixed;
+				width: 100%;
+			}
+
+			a {
+				color: #fff;
+				display: inline-block; 
+				padding: 12px 40px 10px;
+				text-decoration: none;
+				border-left: 3px solid;
+			}
+
+			a:hover {
+				border-left: 3px solid skyblue;
+				color: skyblue;
+				
+			
+			}
+			
+			section{
+			margin-top: 10%;
+			}

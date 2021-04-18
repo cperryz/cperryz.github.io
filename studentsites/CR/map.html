@@ -1,0 +1,122 @@
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Eater' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<style>
+			#hover {
+				height: 80%;
+				width: 100%;
+				background-color:#02022b;;
+				background-size: cover;
+			}
+			
+			#map {
+				margin: 0 auto;
+				margin-top: 20px;
+			}
+			
+
+		</style>
+</head>
+<body>
+
+			<header>
+			<a href = "HOME.html">
+			<img src="MEDIA/logo1.png" >	
+			</a>
+
+		</header>
+		<nav>
+		<div class="dropdown">
+			<a href="#">Social Media</a>
+		<div class="dropdown-content">
+			<p style="color:grey;">Facebook</p>
+		</div>
+		</div>
+	   
+		<div class="dropdown">
+			<a href="https://www.mercedes-benz.co.uk/">Mercedes Website</a>		
+		<div class="dropdown-content">
+		<p href=style="color:grey;">https://www.mercedes-benz.co.uk/</p>
+		
+		</div>
+		</div>
+		
+		<div class="dropdown">	
+			<a href="Contact Form.html">Contact Us</a>
+		<div class="dropdown-content">
+		<p style="color:grey;">Fax No.01564510151</p>
+		</div>
+		</div>
+		
+		</nav>
+		
+		
+		<section id="Hover">
+	
+		<div id="map" style="height: 500px; width: 500px;"></div>
+		
+		 <footer>
+		 <a href="interior.html"id="Button1">Interior</a>
+			<a href="exterior.html"id="Button2">Exterior</a>
+			<a href="alloys.html"id="Button3">Alloys</a>
+			<a href="gallery.html"id="Button4">Gallery</a>
+		 </footer>
+	 
+</section>
+
+  
+
+  <script>
+    //Website for finding coordinates...
+    //https://www.maps.ie/coordinates.html
+    function initMap() {
+      var dealer1 = {lat: 53.4807593, lng: -2.1426305000000184};
+	  var dealer2 = {lat: 51.8313828, lng: -1.3035575999999764};
+	  var dealer3 = {lat: 57.4807593, lng: -2.2426305000000184};
+	  var dealer4 = {lat: 51.4835917, lng: -0.16862649999995938};
+	  var dealer5 = {lat: 53.239698, lng: -2.1271483000000444};
+	  var dealer6 = {lat: 53.417584, lng: -2.170951100000025};
+	  var dealer7 = {lat: 53.7581084, lng: -2.448392600000034};
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 6,
+        center: dealer1
+      });
+      var marker = new google.maps.Marker({
+        position: dealer1,
+        map: map
+      });
+	  var marker1 = new google.maps.Marker({
+        position: dealer2,
+        map: map
+      });
+	  var marker2 = new google.maps.Marker({
+        position: dealer3,
+        map: map
+      });
+	  var marker3 = new google.maps.Marker({
+        position: dealer4,
+        map: map
+      });
+	  var marker4 = new google.maps.Marker({
+        position: dealer5,
+        map: map
+      });
+	  var marker5 = new google.maps.Marker({
+        position: dealer6,
+        map: map
+      });
+	  var marker6 = new google.maps.Marker({
+        position: dealer7,
+        map: map
+      });
+    }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDL5NvE_6iHmDqRFvK3EnxojBLfLj_y0KQ&callback=initMap">
+  </script>
+
+</body>
+</html>

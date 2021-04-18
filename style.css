@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+	}
+
+/* Style the header */
+.header {
+    background-color: #F4F199;
+    padding: 5px;
+    text-align: left;
+}
+
+	
+#main {
+  width: 90%;
+  font-family: Calibri;
+  font-size: 18px;
+  color: #0E2C35;
+  background-color: #F4F199;
+}
+
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #0E2C35;
+}
+
+.content {
+	background-color: #F4F199;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #F4F199;
+    
+}
+
+/* Footer design */
+.footer {
+	background-color: #0E2C35;
+	color: #F4F199;
+	font-size: 12;
+}

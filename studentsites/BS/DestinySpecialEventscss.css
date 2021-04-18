@@ -1,0 +1,69 @@
+
+h1
+{
+	color: white;
+	text-align: center;
+    font-style: italic;
+	font-size: 40px;
+}
+
+#Background {
+	
+	background-color: black;
+	background-repeat: no-repeat;
+	
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: dimgrey; 
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 43px;
+    text-decoration: none;
+
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: blue:
+}
+
+P1 {
+	float: left;
+	font-size: 18px;
+	color: skyblue;
+	text-align: center;
+	
+}
+.imageholder
+{
+	color: skyblue;
+	position:absolute; 
+	top: 79.5%;
+	left: 58%;
+	width: 1400px;
+	height: 700px;
+}
+
+}
+.imageholder4
+{
+	color:skyblue;
+	position: absolute;
+	top: 45%%;
+	left: 74%;
+	width: 1400px;
+	height: 700px;
+
+}

@@ -1,0 +1,35 @@
+	#color1 {
+		background-color: white;
+	}
+	
+	#color2 {
+		background-color: black;
+	}
+	
+	#color3 {
+		background-color: gray;
+	}
+	
+	#color4 {
+		background-color: darkgray;
+	}
+	
+	#font1 {
+		font-family: 'Courier';
+		font-size: 50px;
+                color: white;
+	}
+	
+	#font2 {
+		font-family: 'Courier';
+		font-size: 35px;
+                color: white;
+	}
+	
+	#font3 {
+		font-family: 'Lucida console';
+		font-size: 22px;
+                color: white;
+	}
+
+   

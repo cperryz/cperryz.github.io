@@ -1,0 +1,53 @@
+  <link rel="stylesheet" href="style.css">
+<div class="topnav">
+  <a class="active" href="Website.html"><img src="Home (2).png" style="width:15%;"></a>
+  <a href="Deals.html"><img src="Deals of the day.png" style="width:15%;"></a>
+  <a href="News.html"><img src="Software.png" style="width:15%;"></a>
+  <a href="computers.html"><img src="Computers.png" style="width:7.5%;"></a></a>
+  <a href="phone.html"><img src="Phones (2).png" style="width:7.5%;"></a>
+  <a href="Consoles.html"><img src="Consoles.png" style="width:15%;"></a>
+  <a href="Monitors.html"><img src="Monitor.png" style="width:15%;"></a>
+  <a href="Peripher.html"><img src="Mouse.png" style="width:7.5%;"></a>
+  <a href="Parts.html"><img src="Proccessor.png" style="width:12.5%;"></a>
+</div>
+<center></p><video playsinline autoplay muted loop width="95%" height="95%"> 
+<source src="Website Animation.mp4">
+</video><p><center>
+<p><div class="slideshow-container"></p>
+<div class="mySlides fade">
+  <img src="Image(3)fw.jpg" style="width:80%;">
+</div>
+<div class="mySlides fade">
+  <img src="Image(2)fw.jpg" style="width:80%">
+</div>
+<div class="mySlides fade">
+  <img src="Image(1)fw.jpg" style="width:80%"> 
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div> 
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000);
+}
+</script>
+
